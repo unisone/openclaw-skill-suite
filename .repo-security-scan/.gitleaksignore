@@ -1,0 +1,19 @@
+# repo-security-scan defaults
+# Keep this conservative: ignore generated / vendored / scan output.
+
+# dependencies / vendored
+node_modules
+vendor
+
+# build output
+build
+dist
+out
+
+# tool caches
+.cache
+.coverage
+
+# scan output
+.repo-security-scan/out
+.repo-security-scan/out-test
