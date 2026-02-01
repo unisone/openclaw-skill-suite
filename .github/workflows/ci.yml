@@ -1,0 +1,14 @@
+name: ci
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Repo layout
+        run: |
+          echo "TODO: add demo smoke tests + secret scan"
+          find skills -maxdepth 2 -type f -name SKILL.md -print || true
