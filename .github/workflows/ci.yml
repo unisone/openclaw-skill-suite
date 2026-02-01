@@ -12,7 +12,7 @@ jobs:
 
       - uses: actions/setup-go@v5
         with:
-          go-version: "1.22"
+          go-version: "1.22.7"
 
       - name: Install dependencies
         run: |
@@ -22,7 +22,7 @@ jobs:
 
           # Install scanners via go (avoids platform-specific release asset names)
           go install github.com/zricethezav/gitleaks/v8@v8.21.0
-          go install github.com/google/osv-scanner/v2/cmd/osv-scanner@v2.3.2
+          go install github.com/google/osv-scanner/cmd/osv-scanner@v1.9.0
 
           echo "PATH=$PATH:$(go env GOPATH)/bin" >> "$GITHUB_ENV"
 
