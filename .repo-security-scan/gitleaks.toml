@@ -1,0 +1,12 @@
+title = "repo-security-scan defaults"
+
+[extend]
+useDefault = true
+
+# Keep allowlists narrow.
+# Prefer repo-local .gitleaks.toml/.gitleaksignore for project-specific suppressions.
+[allowlist]
+description = "repo-security-scan: ignore scan artifacts"
+paths = [
+  '''^\.repo-security-scan/''',
+]

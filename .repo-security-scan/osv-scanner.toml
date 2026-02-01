@@ -1,0 +1,12 @@
+# repo-security-scan defaults for osv-scanner
+#
+# IMPORTANT: This file is intentionally minimal.
+# In most repos you should *not* ignore vulnerabilities by default.
+#
+# To suppress a known false positive or accepted risk, add entries like:
+#
+# [[IgnoredVulns]]
+# id = "GO-2022-0968"
+# reason = "Not reachable in this project"
+#
+# See docs: https://google.github.io/osv-scanner/configuration/
