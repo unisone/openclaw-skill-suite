@@ -233,10 +233,12 @@ if require_cmd osv-scanner; then
   fi
 
   # osv-scanner v1.x syntax (compatible with v1.9.0 pinned in CI)
-  OSV_ARGS=(-r "$REPO_ABS" --format json)
+  # Flags must come before the positional path arg for osv-scanner v1.x
+  OSV_ARGS=(--format json)
   if [[ -n "$OSV_CONFIG_TO_USE" ]]; then
     OSV_ARGS+=(--config "$OSV_CONFIG_TO_USE")
   fi
+  OSV_ARGS+=(-r "$REPO_ABS")
 
   # JSON output is written to stdout; other output goes to stderr.
   set +e
