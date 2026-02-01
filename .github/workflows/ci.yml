@@ -21,7 +21,7 @@ jobs:
           sudo apt-get install -y jq
 
           # Install scanners via go (avoids platform-specific release asset names)
-          go install github.com/gitleaks/gitleaks/v8@v8.30.0
+          go install github.com/zricethezav/gitleaks/v8@v8.30.0
           go install github.com/google/osv-scanner/v2/cmd/osv-scanner@v2.3.2
 
           echo "PATH=$PATH:$(go env GOPATH)/bin" >> "$GITHUB_ENV"
