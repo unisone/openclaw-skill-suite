@@ -1,0 +1,29 @@
+{
+  "name": "openclaw-skill-design-inspo",
+  "version": "1.0.0",
+  "description": "OpenClaw skill — Design inspiration gallery router. 12+ curated sites for web design, landing pages, SaaS, navbars, CTAs, animation, mobile apps, branding, icons, design systems, hero sections.",
+  "keywords": [
+    "openclaw",
+    "openclaw-skill",
+    "design",
+    "inspiration",
+    "ui",
+    "ux",
+    "web-design",
+    "landing-pages",
+    "design-systems"
+  ],
+  "author": "unisone",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unisone/openclaw-skill-suite.git",
+    "directory": "skills/design-inspo"
+  },
+  "homepage": "https://github.com/unisone/openclaw-skill-suite/tree/main/skills/design-inspo",
+  "files": [
+    "SKILL.md",
+    "references/",
+    "scripts/"
+  ]
+}
