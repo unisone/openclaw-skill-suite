@@ -12,6 +12,11 @@ A curated collection of agent skills for [OpenClaw](https://github.com/openclaw/
 | [**release-notes**](skills/release-notes/) | Release notes from git history — groups changes by type, surfaces breaking changes, drafts highlights | Skill file |
 | [**graphrag**](skills/graphrag/) | GraphRAG pipelines — extract entities/relationships into Kuzu, answer multi-hop questions over the graph | Skill file |
 | [**astra-operator**](skills/astra-operator/) | Delegate computer-use tasks to GPT-6 Astra with evidence discipline and approval gates | Skill file |
+| [**testimonial-launch**](skills/testimonial-launch/) | Launch distribution via user testimonials — solicit specifics, curate, amplify with quote-posts | Skill file |
+| [**money-challenge**](skills/money-challenge/) | Public economic-outcome challenge mechanic — time-boxed, hashtag-tracked, dollar-denominated proof | Skill file |
+| [**secure-agent-design**](skills/secure-agent-design/) | Security architecture for personal agents — isolated VMs, sentinel checks, least privilege, approval gates | Skill file |
+| [**mundane-demos**](skills/mundane-demos/) | Demo mundane real-life utility end-to-end instead of benchmarks — speed as the wow factor | Skill file |
+| [**validator-quotes**](skills/validator-quotes/) | Earn and deploy third-party validator quotes — who to approach, how to amplify | Skill file |
 
 ## Quick Start
 

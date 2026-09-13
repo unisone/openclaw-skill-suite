@@ -1,7 +1,7 @@
 {
   "name": "openclaw-skill-suite",
-  "version": "1.1.0",
-  "description": "Curated agent skills for OpenClaw: design inspiration, product demo videos, security scanning, release notes, GraphRAG pipelines, and verified computer-use delegation.",
+  "version": "1.2.0",
+  "description": "Curated agent skills for OpenClaw: design inspiration, product demo videos, security scanning, release notes, GraphRAG pipelines, verified computer-use delegation, and go-to-market playbooks (testimonials, money challenges, validator quotes, demos).",
   "author": {
     "name": "unisone",
     "url": "https://github.com/unisone"
