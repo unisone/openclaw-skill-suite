@@ -1,6 +1,9 @@
 ---
 name: design-inspo
 description: Find design inspiration from curated gallery sites. Use when a user needs UI/UX references, design examples, or inspiration for specific components (navbars, CTAs, hero sections, landing pages, etc.), full websites, SaaS products, mobile apps, animations, icons, branding, or design systems. Helps select the right inspiration source and browse examples.
+license: MIT
+metadata:
+  author: unisone
 ---
 
 # Design Inspiration
@@ -55,3 +58,4 @@ For Mobbin (requires account for full access), Navbar Gallery, and Component Gal
 ## Extended Catalog
 
 For additional sites and detailed descriptions, see [references/catalog.md](references/catalog.md).
+

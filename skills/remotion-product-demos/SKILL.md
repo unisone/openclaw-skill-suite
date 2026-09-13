@@ -1,6 +1,9 @@
 ---
 name: remotion-product-demos
 description: Create Apple-keynote-quality product demo videos with Remotion. Covers glass phone mockups, floating 3D spheres, typing animations, card UIs, ripple effects, and smooth scene transitions. Use when asked to create product demos, app showcase videos, UI walkthrough animations, or "glass phone" style content. Triggers on "product demo video", "app demo", "glass phone", "keynote-style video", "phone mockup animation", "GlassPhoneDemo".
+license: MIT
+metadata:
+  author: unisone
 ---
 
 # Remotion Product Demo Videos
@@ -109,3 +112,4 @@ When building a new product demo template:
 6. **QA with vision model** — extract frames, rate quality, iterate
 
 Follow Remotion rules strictly: read `skills/remotion-best-practices/` rule files.
+

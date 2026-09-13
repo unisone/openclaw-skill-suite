@@ -1,0 +1,11 @@
+{
+  "name": "openclaw-skill-suite",
+  "version": "1.0.0",
+  "description": "Curated agent skills for OpenClaw: design inspiration, Apple-keynote-quality product demo videos, and repository security scanning.",
+  "author": {
+    "name": "unisone",
+    "url": "https://github.com/unisone"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/unisone/openclaw-skill-suite"
+}

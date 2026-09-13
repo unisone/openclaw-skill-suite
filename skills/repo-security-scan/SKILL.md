@@ -1,3 +1,11 @@
+---
+name: repo-security-scan
+description: Scan a repository for high-signal security issues and produce a report. Use when auditing a codebase for leaked secrets or vulnerable dependencies, before a release, or when onboarding an unfamiliar repo. Runs gitleaks secret scanning and osv-scanner dependency checks.
+license: MIT
+metadata:
+  author: unisone
+---
+
 # repo-security-scan
 
 Scans a target repository for high-signal security issues and produces a report.
@@ -80,3 +88,4 @@ bash scripts/repo-security-scan/scan.sh --repo /path/repo --osv-config /path/to/
 - Ubuntu:
   - `sudo apt-get update && sudo apt-get install -y jq`
   - Install gitleaks + osv-scanner from releases, or compile via `go install`.
+
