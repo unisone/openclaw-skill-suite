@@ -9,6 +9,7 @@ A curated collection of agent skills for [OpenClaw](https://github.com/openclaw/
 | [**design-inspo**](skills/design-inspo/) | Design inspiration router — 12+ curated galleries for web design, landing pages, SaaS, navbars, CTAs, animations, mobile apps, branding, icons, and design systems | `npm i openclaw-skill-design-inspo` |
 | [**remotion-product-demos**](skills/remotion-product-demos/) | Apple-keynote-quality product demo videos with Remotion — glass phone mockups, 3D spheres, typing animations, card UIs, smooth transitions | Skill file |
 | [**repo-security-scan**](skills/repo-security-scan/) | Lightweight security scanning — secrets detection (gitleaks) + dependency vulnerability scanning (osv-scanner) with CI integration | Skill file |
+| [**release-notes**](skills/release-notes/) | Release notes from git history — groups changes by type, surfaces breaking changes, drafts highlights | Skill file |
 
 ## Quick Start
 
@@ -65,3 +66,4 @@ Every skill should include:
 ## License
 
 [Apache 2.0](LICENSE)
+
