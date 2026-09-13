@@ -10,6 +10,7 @@ A curated collection of agent skills for [OpenClaw](https://github.com/openclaw/
 | [**remotion-product-demos**](skills/remotion-product-demos/) | Apple-keynote-quality product demo videos with Remotion — glass phone mockups, 3D spheres, typing animations, card UIs, smooth transitions | Skill file |
 | [**repo-security-scan**](skills/repo-security-scan/) | Lightweight security scanning — secrets detection (gitleaks) + dependency vulnerability scanning (osv-scanner) with CI integration | Skill file |
 | [**release-notes**](skills/release-notes/) | Release notes from git history — groups changes by type, surfaces breaking changes, drafts highlights | Skill file |
+| [**graphrag**](skills/graphrag/) | GraphRAG pipelines — extract entities/relationships into Kuzu, answer multi-hop questions over the graph | Skill file |
 
 ## Quick Start
 
@@ -66,4 +67,5 @@ Every skill should include:
 ## License
 
 [Apache 2.0](LICENSE)
+
 
