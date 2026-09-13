@@ -11,6 +11,7 @@ A curated collection of agent skills for [OpenClaw](https://github.com/openclaw/
 | [**repo-security-scan**](skills/repo-security-scan/) | Lightweight security scanning — secrets detection (gitleaks) + dependency vulnerability scanning (osv-scanner) with CI integration | Skill file |
 | [**release-notes**](skills/release-notes/) | Release notes from git history — groups changes by type, surfaces breaking changes, drafts highlights | Skill file |
 | [**graphrag**](skills/graphrag/) | GraphRAG pipelines — extract entities/relationships into Kuzu, answer multi-hop questions over the graph | Skill file |
+| [**astra-operator**](skills/astra-operator/) | Delegate computer-use tasks to GPT-6 Astra with evidence discipline and approval gates | Skill file |
 
 ## Quick Start
 
@@ -67,5 +68,6 @@ Every skill should include:
 ## License
 
 [Apache 2.0](LICENSE)
+
 
 
